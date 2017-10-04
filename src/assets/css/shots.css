@@ -38,3 +38,28 @@
   background-position: left;
   padding-left: 2rem;
 }
+
+.shot-detail-container {
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+.shot-detail {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.shot-detail img {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}

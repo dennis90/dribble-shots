@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
+import {HashRouter} from 'react-router-dom'
 
-import ShotList from './components/Listing'
 import Header from './components/header'
+import ShotList from './components/Listing'
 import * as actionCreators from './actionCreators'
 
 
@@ -14,11 +15,13 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Header />
-        <ShotList {...this.props} />
-      </div>
-    );
+      <HashRouter>
+        <div className="App">
+          <Header />
+          <ShotList {...this.props} />
+        </div>
+      </HashRouter>
+    )
   }
 }
 

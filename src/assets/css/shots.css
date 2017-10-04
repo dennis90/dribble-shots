@@ -5,17 +5,18 @@
 }
 
 .shot {
-  width: 160px;
-  height: 120px;
+  width: 10rem;
+  height: 7.5rem;
   display: block;
   margin-bottom: 1.5rem;
   background-size: 100%;
+  cursor: pointer;
 }
 
 @media(min-width: 600px) {
   .shot {
-    width: 260px;
-    height: 195px;
+    width: 16.25rem;
+    height: 12.1875rem;
   }
 }
 

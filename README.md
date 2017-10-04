@@ -6,7 +6,7 @@
 
 1. Register your application at [Dribbble Developer](https://dribbble.com/account/applications/new) and get your `Client Access Token`.
 
-2. Put your `Client Access Token` in `settings.js` file.
+2. Put your `Client Access Token` as `REACT_APP_DRIBBBLE_KEY` variable in `.env` file.
 
 3. Run `npm install` command inside application folder
 

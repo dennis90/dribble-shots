@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shots Reducer should handle initial state 1`] = `
+Immutable.OrderedMap {
+}
+`;
+
+exports[`Shots Reducer should store received shots at \`SHOTS_FETCHED\` action type 1`] = `
+Immutable.OrderedMap {
+  1: Object {
+    "description": "Shot Description #1",
+    "id": 1,
+    "images": Object {
+      "hidpi": "https://dribbble/images/hidpi",
+      "normal": "https://dribbble/images/normal",
+    },
+    "likes_count": 100,
+    "title": "Shot #1",
+    "user": Object {
+      "avatar_url": "https://dribbble.com/user/avatar.png",
+      "html_url": "https://dribbble.com/user/",
+      "name": "User #1",
+    },
+    "views_count": 100,
+  },
+  2: Object {
+    "description": "Shot Description #2",
+    "id": 2,
+    "images": Object {
+      "hidpi": "https://dribbble/images/hidpi",
+      "normal": "https://dribbble/images/normal",
+    },
+    "likes_count": 100,
+    "title": "Shot #2",
+    "user": Object {
+      "avatar_url": "https://dribbble.com/user/avatar.png",
+      "html_url": "https://dribbble.com/user/",
+      "name": "User #2",
+    },
+    "views_count": 100,
+  },
+  3: Object {
+    "description": "Shot Description #3",
+    "id": 3,
+    "images": Object {
+      "hidpi": "https://dribbble/images/hidpi",
+      "normal": "https://dribbble/images/normal",
+    },
+    "likes_count": 100,
+    "title": "Shot #3",
+    "user": Object {
+      "avatar_url": "https://dribbble.com/user/avatar.png",
+      "html_url": "https://dribbble.com/user/",
+      "name": "User #3",
+    },
+    "views_count": 100,
+  },
+}
+`;

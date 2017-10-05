@@ -4,7 +4,7 @@ const Header = ({shot}) => {
   return (
     <div className="shot-header">
       <div className="user-profile-image">
-        <img src={shot.user.avatar_url} />
+        <img src={shot.user.avatar_url} alt="User Avatar" />
       </div>
       <div>
         <div className="shot-title">

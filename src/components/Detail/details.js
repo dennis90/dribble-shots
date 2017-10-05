@@ -4,7 +4,7 @@ const Detail = ({shot}) => {
   return (
     <div className="shot-data">
       <div className="image">
-        <img src={shot.images.hidpi} />
+        <img src={shot.images.hidpi} alt={shot.title} />
       </div>
       <div className="info">
         <div className="views-count">

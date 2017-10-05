@@ -8,7 +8,7 @@ import ShotList from './components/Listing'
 import * as actionCreators from './actionCreators'
 
 
-class App extends Component {
+export class App extends Component {
   componentDidMount() {
     this.props.actions.fetchDribbleShots()
   }

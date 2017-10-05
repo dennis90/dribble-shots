@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component mounting 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Detail
+    shot={
+        Object {
+            "description": "Shot Description #1",
+            "id": 1,
+            "images": Object {
+              "hidpi": "https://dribbble/images/hidpi",
+              "normal": "https://dribbble/images/normal",
+            },
+            "likes_count": 100,
+            "title": "Shot #1",
+            "user": Object {
+              "avatar_url": "https://dribbble.com/user/avatar.png",
+              "html_url": "https://dribbble.com/user/",
+              "name": "User #1",
+            },
+            "views_count": 100,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Header
+          shot={
+                    Object {
+                              "description": "Shot Description #1",
+                              "id": 1,
+                              "images": Object {
+                                "hidpi": "https://dribbble/images/hidpi",
+                                "normal": "https://dribbble/images/normal",
+                              },
+                              "likes_count": 100,
+                              "title": "Shot #1",
+                              "user": Object {
+                                "avatar_url": "https://dribbble.com/user/avatar.png",
+                                "html_url": "https://dribbble.com/user/",
+                                "name": "User #1",
+                              },
+                              "views_count": 100,
+                            }
+          }
+/>,
+        <Detail
+          shot={
+                    Object {
+                              "description": "Shot Description #1",
+                              "id": 1,
+                              "images": Object {
+                                "hidpi": "https://dribbble/images/hidpi",
+                                "normal": "https://dribbble/images/normal",
+                              },
+                              "likes_count": 100,
+                              "title": "Shot #1",
+                              "user": Object {
+                                "avatar_url": "https://dribbble.com/user/avatar.png",
+                                "html_url": "https://dribbble.com/user/",
+                                "name": "User #1",
+                              },
+                              "views_count": 100,
+                            }
+          }
+/>,
+        <Footer
+          shot={
+                    Object {
+                              "description": "Shot Description #1",
+                              "id": 1,
+                              "images": Object {
+                                "hidpi": "https://dribbble/images/hidpi",
+                                "normal": "https://dribbble/images/normal",
+                              },
+                              "likes_count": 100,
+                              "title": "Shot #1",
+                              "user": Object {
+                                "avatar_url": "https://dribbble.com/user/avatar.png",
+                                "html_url": "https://dribbble.com/user/",
+                                "name": "User #1",
+                              },
+                              "views_count": 100,
+                            }
+          }
+/>,
+      ],
+      "className": "shot-detail",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "shot": Object {
+            "description": "Shot Description #1",
+            "id": 1,
+            "images": Object {
+              "hidpi": "https://dribbble/images/hidpi",
+              "normal": "https://dribbble/images/normal",
+            },
+            "likes_count": 100,
+            "title": "Shot #1",
+            "user": Object {
+              "avatar_url": "https://dribbble.com/user/avatar.png",
+              "html_url": "https://dribbble.com/user/",
+              "name": "User #1",
+            },
+            "views_count": 100,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "shot": Object {
+            "description": "Shot Description #1",
+            "id": 1,
+            "images": Object {
+              "hidpi": "https://dribbble/images/hidpi",
+              "normal": "https://dribbble/images/normal",
+            },
+            "likes_count": 100,
+            "title": "Shot #1",
+            "user": Object {
+              "avatar_url": "https://dribbble.com/user/avatar.png",
+              "html_url": "https://dribbble.com/user/",
+              "name": "User #1",
+            },
+            "views_count": 100,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "shot": Object {
+            "description": "Shot Description #1",
+            "id": 1,
+            "images": Object {
+              "hidpi": "https://dribbble/images/hidpi",
+              "normal": "https://dribbble/images/normal",
+            },
+            "likes_count": 100,
+            "title": "Shot #1",
+            "user": Object {
+              "avatar_url": "https://dribbble.com/user/avatar.png",
+              "html_url": "https://dribbble.com/user/",
+              "name": "User #1",
+            },
+            "views_count": 100,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Header
+            shot={
+                        Object {
+                                    "description": "Shot Description #1",
+                                    "id": 1,
+                                    "images": Object {
+                                      "hidpi": "https://dribbble/images/hidpi",
+                                      "normal": "https://dribbble/images/normal",
+                                    },
+                                    "likes_count": 100,
+                                    "title": "Shot #1",
+                                    "user": Object {
+                                      "avatar_url": "https://dribbble.com/user/avatar.png",
+                                      "html_url": "https://dribbble.com/user/",
+                                      "name": "User #1",
+                                    },
+                                    "views_count": 100,
+                                  }
+            }
+/>,
+          <Detail
+            shot={
+                        Object {
+                                    "description": "Shot Description #1",
+                                    "id": 1,
+                                    "images": Object {
+                                      "hidpi": "https://dribbble/images/hidpi",
+                                      "normal": "https://dribbble/images/normal",
+                                    },
+                                    "likes_count": 100,
+                                    "title": "Shot #1",
+                                    "user": Object {
+                                      "avatar_url": "https://dribbble.com/user/avatar.png",
+                                      "html_url": "https://dribbble.com/user/",
+                                      "name": "User #1",
+                                    },
+                                    "views_count": 100,
+                                  }
+            }
+/>,
+          <Footer
+            shot={
+                        Object {
+                                    "description": "Shot Description #1",
+                                    "id": 1,
+                                    "images": Object {
+                                      "hidpi": "https://dribbble/images/hidpi",
+                                      "normal": "https://dribbble/images/normal",
+                                    },
+                                    "likes_count": 100,
+                                    "title": "Shot #1",
+                                    "user": Object {
+                                      "avatar_url": "https://dribbble.com/user/avatar.png",
+                                      "html_url": "https://dribbble.com/user/",
+                                      "name": "User #1",
+                                    },
+                                    "views_count": 100,
+                                  }
+            }
+/>,
+        ],
+        "className": "shot-detail",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "shot": Object {
+              "description": "Shot Description #1",
+              "id": 1,
+              "images": Object {
+                "hidpi": "https://dribbble/images/hidpi",
+                "normal": "https://dribbble/images/normal",
+              },
+              "likes_count": 100,
+              "title": "Shot #1",
+              "user": Object {
+                "avatar_url": "https://dribbble.com/user/avatar.png",
+                "html_url": "https://dribbble.com/user/",
+                "name": "User #1",
+              },
+              "views_count": 100,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "shot": Object {
+              "description": "Shot Description #1",
+              "id": 1,
+              "images": Object {
+                "hidpi": "https://dribbble/images/hidpi",
+                "normal": "https://dribbble/images/normal",
+              },
+              "likes_count": 100,
+              "title": "Shot #1",
+              "user": Object {
+                "avatar_url": "https://dribbble.com/user/avatar.png",
+                "html_url": "https://dribbble.com/user/",
+                "name": "User #1",
+              },
+              "views_count": 100,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "shot": Object {
+              "description": "Shot Description #1",
+              "id": 1,
+              "images": Object {
+                "hidpi": "https://dribbble/images/hidpi",
+                "normal": "https://dribbble/images/normal",
+              },
+              "likes_count": 100,
+              "title": "Shot #1",
+              "user": Object {
+                "avatar_url": "https://dribbble.com/user/avatar.png",
+                "html_url": "https://dribbble.com/user/",
+                "name": "User #1",
+              },
+              "views_count": 100,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Component null mounting 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Detail />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): null,
+  Symbol(enzyme.__nodes__): Array [
+    null,
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -3,7 +3,8 @@ import {Route} from 'react-router-dom'
 
 import Shot from './shot'
 import ShotDetail from '../Detail'
-import '../../assets/css/shots.css'
+import Modal from '../generic/Modal'
+import '../../assets/css/listing.css'
 
 export const Shots = ({shots}) => {
   const renderShots = () => {
@@ -11,9 +12,13 @@ export const Shots = ({shots}) => {
   }
 
   const renderShotDetail = ({match}) => {
-    const usedID = parseInt(match.params.id)
+    const usedID = parseInt(match.params.id, 10)
     const usedShot = shots.get(usedID)
-    return <ShotDetail shot={usedShot} />
+    return (
+      <Modal closeRoute="/">
+        <ShotDetail shot={usedShot} />
+      </Modal>
+    )
   }
 
   return (

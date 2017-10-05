@@ -1,0 +1,42 @@
+.shots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.shot {
+  width: 10rem;
+  height: 7.5rem;
+  display: block;
+  margin-bottom: 1.5rem;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+@media(min-width: 600px) {
+  .shot {
+    width: 16.25rem;
+    height: 12.1875rem;
+  }
+}
+
+.shot-footer {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  top: 75%;
+  height: 25%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.shot-views {
+  margin: auto 0;
+  margin-right: 1rem;
+  color: white;
+  font-weight: bold;
+  background: url('../img/eye.png') no-repeat;
+  background-position: left;
+  padding-left: 2rem;
+}

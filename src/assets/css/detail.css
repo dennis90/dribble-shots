@@ -1,0 +1,76 @@
+.shot-detail {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.88rem;
+}
+
+.shot-detail a {
+  color: #008B7D;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.shot-header {
+  display: flex;
+  margin: .5rem 0 1rem;
+}
+
+.shot-header .shot-title {
+  font-size: 2rem;
+}
+
+.shot-header .user-profile-info {
+  font-size: 1.2rem;
+}
+.shot-header .user-profile-image {
+  width: 4rem;
+  margin: auto 0;
+}
+
+.shot-header .user-profile-image img {
+  border-radius: 1000px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.shot-data {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shot-data .image {
+  flex: 3;
+  min-width: 15rem;
+}
+
+.shot-data .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.shot-data .info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.shot-data .info div {
+  display: flex;
+  margin-left: 2rem;
+  padding-left: 2rem;
+  height: 2rem;
+}
+
+.views-count {
+  background: url('../img/eye-green.png') no-repeat left;
+}
+
+.likes-count {
+  background: url('../img/heart-green.png') no-repeat left;
+}
+
+.shot-data .info span {
+  margin: auto 0;
+}

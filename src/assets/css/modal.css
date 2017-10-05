@@ -1,0 +1,48 @@
+.modal-container {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 98vw;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 90%;
+  z-index: 2;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.modal-background {
+  display: flex;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.modal-header {
+  height: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #008B7D;
+}
+
+.modal-header a {
+  margin: auto .5rem;
+}
+
+.close-modal-button {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: block;
+  background: url('../img/close.png') no-repeat;
+  background-position: center;
+}

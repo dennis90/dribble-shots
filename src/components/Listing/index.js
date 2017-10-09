@@ -8,7 +8,7 @@ import '../../assets/css/listing.css'
 
 export const Shots = ({shots}) => {
   const renderShots = () => {
-    return shots.toArray().map(shot => <Shot key={shot.id} shot={shot} />)
+    return shots.toArray().map(([key, shot]) => <Shot key={key} shot={shot} />)
   }
 
   const renderShotDetail = ({match}) => {

@@ -9,4 +9,7 @@ export const fetchDribbleShots = () => dispatch => {
   })
   .then(response => response.json())
   .then(json => dispatch({type: types.SHOTS_FETCHED, payload: json}))
+  .catch(err => {
+    throw err
+  })
 }
